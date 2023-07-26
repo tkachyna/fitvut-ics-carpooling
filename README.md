@@ -1,20 +1,45 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Carpooling App with C#, .NET, WPF
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Our project is a C# application that uses an Entity Framework (EF) Core, AutoMapper, and Windows Presentation Foundation (WPF) to create a desktop carpooling app. The application was created in the ICS (C# Seminar) course in teams of 5 people. The project was divided into three parts. 
+1. Wireframe, Entity-relationship diagram, models
+2. Data-access and Business Layers
+3. WPF
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+After each part we were given feedback. Initially, the project was created in Azure DevOps. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Team
+**Vítek Hnatovskyj** - DAL / BL / Models 
+**Tadeáš Kachyňa** - DAL / BL / Tests
+**David Novák** - Application Layer / WPF
+**Vanessa Jóriová** - Application Layer / WPF
+**Richard Gajdošík** -  Application Layer / WPF
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+*DAL - Data Access Layer
+BL - Business Layer*
+
+
+## Requirements
+
+The user should be able to:
+
+1. Create another user
+2. Edit your information + separately have a tab where you edit the details of your cars
+3. Add a carpool + manage it (2 operations - kick a member or completely cancel a ride)
+4. Must be able to view the list of carpools and filter them
+
+The app should be able to:
+
+1. Allow to perform CRUD operations on all data.
+2. Work "real-time",  multiple instances will be started and the creation of the co-driving must be displayed in the second application
+
+## Minimal functionality
+
+    The application must be able to perform CRUD operations on all data.
+    The application is controlled from the view of the selected user when the application is started.
+    The user may create other users.
+    The user may edit information about himself.
+    User can add a carpool (will be listed as a driver).
+    A driver can remove a passenger and cancel a carpool.
+    A user can add their cars and edit their information.
+    The user can see the list of carpools and can log in to an unoccupied carpool.
+    User can filter carpool by start time, sta
