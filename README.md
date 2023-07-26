@@ -9,10 +9,15 @@ After each part we were given feedback. Initially, the project was created in Az
 
 ## Team
 **Vítek Hnatovskyj** - DAL / BL / Models 
+
 **Tadeáš Kachyňa** - DAL / BL / Tests
+
 **David Novák** - Application Layer / WPF
+
 **Vanessa Jóriová** - Application Layer / WPF
+
 **Richard Gajdošík** -  Application Layer / WPF
+
 
 *DAL - Data Access Layer
 BL - Business Layer*
